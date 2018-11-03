@@ -1,0 +1,10 @@
+@import './styling.scss';
+
+.download {
+  background: $navBarColour;
+  color: $textColour;
+}
+
+.download:hover{
+  color: white;
+}
