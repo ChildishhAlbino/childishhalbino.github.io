@@ -1,0 +1,26 @@
+@import './styling.scss';
+
+.blogPost{
+    .captionText{
+        font-size: 15px;
+    }
+    display: flex;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+    }
+    a:visited{
+        color: $textShadow;
+    }
+    a:hover{
+        color: $headerColour;
+    }
+}
+
+.postContent{
+    color: $textColour;
+}
+
+.postDate{
+    color: $headerColour;
+}
