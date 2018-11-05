@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/posts`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-buildtime-timezone',
+      options: {
+        tz: 'Australia/Sydney',
+        format: 'LLLL',
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',

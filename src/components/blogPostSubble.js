@@ -4,7 +4,7 @@ import './blogPostSubble.scss'
 import Subble from './subble'
 
 const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }) => {
-  if (editDate == null) {
+  if (editDate === postDate) {
     return (
       <Subble stylingClass="subble Two shadow">
         <div class="blogPost">

@@ -8,7 +8,7 @@ import './blogPostTemplate.scss'
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  if (post.frontmatter.currentDate == null) {
+  if (post.frontmatter.latestEditDate === post.frontmatter.postDate) {
     return (
       <Bubble>
         <NavBar />
@@ -39,7 +39,7 @@ export default ({ data }) => {
               <div>
                 <p>Posted: {post.frontmatter.postDate}</p>
                 <p>
-                  {post.frontmatter.datePrefix} {post.frontmatter.currentDate}
+                  {post.frontmatter.datePrefix} {post.frontmatter.latestEditDate}
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ export const query = graphql`
       frontmatter {
         title
         postDate(formatString: "LLLL")
-        currentDate(formatString: "LLLL")
+        latestEditDate(formatString: "LLLL")
         datePrefix
       }
     }
