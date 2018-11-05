@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import './introSubble.scss'
-import Subble from './subble';
+import Subble from './subble'
 import headerPhoto from '../images/me.jpg'
+import style from './subble.module.scss'
 
 const IntroSubble = () => (
-  <Subble stylingClass = "subble One shadow">
-    <div className="introSubble">
+  <Subble styling = {[style.One, style.shadow]}>
+    <div className="">
       <div className="introHeader">
         <h1>
           Hi! I'm <i>Connor Williams.</i>

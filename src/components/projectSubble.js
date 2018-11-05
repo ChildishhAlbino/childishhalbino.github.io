@@ -1,7 +1,7 @@
 import React from 'react'
 import Subble from '../components/subble'
 import Link from 'gatsby-link'
-import './subble.scss'
+import './subble.module.scss'
 
 const ProjectSubble = ({ children, link, imageSrc }) => (
   <Subble stylingClass="subble One shadow">

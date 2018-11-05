@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Bubble from '../components/bubble'
 import IntroSubble from '../components/IntroSubble'
-import BlogSubble from '../components/BlogSubble'
+import BlogColatorSubble from '../components/BlogSubble'
 import BlogPostSubble from '../components/blogPostSubble'
 import NavBar from '../components/NavBar'
 
@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => (
   <Bubble>
     <IntroSubble />
     <NavBar />
-    <BlogSubble buildTime = {data.site.buildTimeZone}>
+    <BlogColatorSubble buildTime = {data.site.buildTimeZone}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <BlogPostSubble
           title={node.frontmatter.title}
@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
           editPrefix = {node.frontmatter.datePrefix}
         />
       ))}
-    </BlogSubble>
+    </BlogColatorSubble>
   </Bubble>
 )
 

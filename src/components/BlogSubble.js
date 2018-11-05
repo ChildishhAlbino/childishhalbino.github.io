@@ -1,19 +1,17 @@
 import React from "react";
-
-import "./BlogSubble.scss";
 import Subble from "./subble";
 import Clock from './clock';
+import style from './subble.module.scss'
 
 let clock = new Clock({date: new Date()})
-const BlogSubble = ({ children }) => (
-  <Subble stylingClass="subble One shadow">
-    <div className = "inlineRow buildTime"> 
+const BlogColatorSubble = ({ children }) => (
+  <Subble styling = {[style.One, style.shadow]}>
+    <div className = {[style.inlineRow, style.blogHeaderFlex].join(' ')}> 
       <h1> Recent Posts </h1>
       <Clock></Clock>
     </div>
-
     {children}
   </Subble>
 );
 
-export default BlogSubble;
+export default BlogColatorSubble;

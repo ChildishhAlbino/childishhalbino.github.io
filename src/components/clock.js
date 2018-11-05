@@ -5,7 +5,7 @@ class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dateTime: moment().format("LLLL")
+      dateTime: moment().format("dddd[,] MMMM Do[,] YYYY[,] h:mm:ss a")
     };
   }
 
@@ -19,14 +19,14 @@ class Clock extends React.Component {
 
   tick() {
     this.setState({
-      dateTime: moment().format("LLLL")
+      dateTime: moment().format("dddd[,] MMMM Do[,] YYYY[,] h:mm:ss a")
     });
   }
 
   render() {
     return (
       <div>
-        <p>It is {this.state.dateTime}.</p>
+        <p>It is: {this.state.dateTime}.</p>
       </div>
     );
   }

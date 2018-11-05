@@ -57,11 +57,12 @@
   flex-direction: column;
 }
 
-.tallyTabFlex{
-  align-items: center;
+.blogHeaderFlex{
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.buildTime{
+.tallyTabFlex{
   justify-content: space-between;
   align-items: baseline;
 }

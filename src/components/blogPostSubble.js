@@ -2,19 +2,20 @@ import React from 'react'
 
 import './blogPostSubble.scss'
 import Subble from './subble'
+import style from './subble.module.scss'
 
 const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }) => {
   if (editDate === postDate) {
     return (
-      <Subble stylingClass="subble Two shadow">
-        <div class="blogPost">
-          <div class="postContent">
+      <Subble styling = {[style.Two, style.shadow]}>
+        <div className="blogPost">
+          <div className="postContent">
             <a href={link}>
               <p>{title}</p>
             </a>
-            <p class="captionText">{caption}</p>
+            <p className="captionText">{caption}</p>
           </div>
-          <div class="postDate">
+          <div className="postDate">
             <p>
               Posted: {postDate}
             </p>
@@ -24,15 +25,15 @@ const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }
     )
   } else {
     return (
-      <Subble stylingClass="subble Two shadow">
-        <div class="blogPost">
-          <div class="postContent">
+      <Subble styling = {[style.Two, style.shadow]}>
+        <div className ="blogPost">
+          <div className = "postContent">
             <a href={link}>
               <p>{title}</p>
             </a>
-            <p class="captionText">{caption}</p>
+            <p className = "captionText">{caption}</p>
           </div>
-          <div class="postDate">
+          <div className = "postDate">
             <p>
               {editPrefix} {editDate}
             </p>

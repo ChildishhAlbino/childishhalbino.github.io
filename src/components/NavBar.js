@@ -1,21 +1,21 @@
 import React from 'react'
 import Subble from './subble'
 import Link from 'gatsby-link'
-import './subble.scss'
+import style from './subble.module.scss'
 
 const NavBar = () => (
-  <Subble stylingClass="subble navBar shadow navBarFlex">
+  <Subble styling={[style.navBar, style.navBarFlex, style.shadow]}>
     <Link to="/">
-      <Subble stylingClass="subble navBarItem shadow">Home</Subble>
+      <Subble styling={[style.navBarItem, style.shadow]}>Home</Subble>
     </Link>
     <Link to="about/">
-      <Subble stylingClass="subble navBarItem shadow">About</Subble>
+      <Subble styling={[style.navBarItem, style.shadow]}>About</Subble>
     </Link>
     <Link to="projects/">
-      <Subble stylingClass="subble navBarItem shadow">Projects</Subble>
+      <Subble styling={[style.navBarItem, style.shadow]}>Projects</Subble>
     </Link>
     <Link to="contact/">
-      <Subble stylingClass="subble navBarItem shadow">Contact</Subble>
+      <Subble styling={[style.navBarItem, style.shadow]}>Contact</Subble>
     </Link>
   </Subble>
 )
