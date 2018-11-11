@@ -14,6 +14,11 @@ const TallyTabPage = () => (
         TallyTab: <i>Never lose track of your tabs again!</i>
       </h1>
       <Subble styling={[style.Two, style.shadow, style.inlineRow]}>
+        <p>
+          Tally tab is a computer program that allows bars, restaurants, and
+          individuals to keep a track of drink consumption and keep track of a
+          tab for functions, events, and more.
+        </p>
         <img
           className={[style.inlineImages]}
           src="https://i.imgur.com/gYFe4yB.png"
