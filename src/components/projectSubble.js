@@ -1,17 +1,18 @@
 import React from 'react'
 import Subble from '../components/subble'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import './subble.module.scss'
+import style from './subble.module.scss'
 
 const ProjectSubble = ({ children, link, imageSrc }) => (
-  <Subble stylingClass="subble One shadow">
-    <div class="projectFlex">
-      <div class="projectOverlay">
+  <Subble styling = {[style.One, style.shadow]}>
+    <div className={style.projectFlex}>
+      <div className={style.projectOverlay}>
         <Link to={link}>
-          <Subble stylingClass="subble Two shadow">
-            <img class="projectImage" src={imageSrc} alt="projectImage" />
+          <Subble styling = {[style.Two, style.shadow]}>
+            <img className={style.projectImage} src={imageSrc} alt="projectImage" />
           </Subble>
-          <div class="text">{children}</div>
+          <div className={style.text}>{children}</div>
         </Link>
       </div>
     </div>

@@ -42,19 +42,24 @@
 }
 
 .inlineImages {
-  flex-basis: 50%;
-  flex-grow: 1;
   margin: 10px;
   box-shadow: $boxShadow;
+  flex-grow: 1;
+  flex-basis: 40%;
 }
 
 .inlineRow {
   display: flex;
+  flex-direction: row;
 }
 
 .inlineColumn {
   display: flex;
   flex-direction: column;
+}
+
+.fitContent{
+  width: fit-content;
 }
 
 .blogHeaderFlex{
@@ -80,7 +85,7 @@
   background: $navBarItemColour;
 }
 
-.BlogPostBody {
+.blogPostBody {
   margin-left: 2%;
   margin-right: 2%;
   h1,
@@ -105,8 +110,21 @@
 
   * {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
+}
+
+.download {
+  background: $navBarColour;
+  color: $textColour;
+}
+
+.download:hover{
+  color: white;
+}
+
+.featuresList{
+  flex-basis: fit-content;
 }
 
 .projectFlex {
@@ -122,7 +140,7 @@
     width: auto;
   }
   .text {
-    font-size: 80%;
+    font-size: 70%;
     color: white;
     text-align: center;
     position: absolute;
@@ -145,11 +163,20 @@
 .aboutHeader {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   .text {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 }
 
-.Wrap {
-  flex-flow: wrap;
+.aboutBody {
+  min-height: fit-content;
+  p + p{
+    margin-top: 2%;
+  }
 }
+
+.wrap {
+  flex-wrap: wrap;
+}
+

@@ -11,6 +11,7 @@ const Bubble = ({ children }) => (
           siteMetadata {
             title
           }
+          buildTimeZone
         }
       }
     `}
@@ -20,7 +21,7 @@ const Bubble = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: "I'm a Sydney based Software Developer." },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'keywords', content: 'sofware development, programming, blogging, video games, basketball' },
           ]}
         >
           <html lang="en" />
@@ -29,7 +30,7 @@ const Bubble = ({ children }) => (
           <div className="bubble">
             {children}
             <footer>
-              <p>Site built in Gatsby JS</p>
+              <p>Site built in Gatsby JS. Last built: {data.site.buildTimeZone}</p>
             </footer>
           </div>
         </body>

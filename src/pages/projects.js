@@ -1,7 +1,6 @@
 import React from 'react'
 import Bubble from '../components/bubble'
 import NavBar from '../components/NavBar'
-import Subble from '../components/subble'
 import IntroSubble from '../components/IntroSubble'
 import ProjectSubble from '../components/projectSubble'
 

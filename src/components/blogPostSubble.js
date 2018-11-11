@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'gatsby'
 import './blogPostSubble.scss'
 import Subble from './subble'
 import style from './subble.module.scss'
@@ -10,9 +10,9 @@ const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }
       <Subble styling = {[style.Two, style.shadow]}>
         <div className="blogPost">
           <div className="postContent">
-            <a href={link}>
+            <Link to={link}>
               <p>{title}</p>
-            </a>
+            </Link>
             <p className="captionText">{caption}</p>
           </div>
           <div className="postDate">
@@ -28,9 +28,9 @@ const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }
       <Subble styling = {[style.Two, style.shadow]}>
         <div className ="blogPost">
           <div className = "postContent">
-            <a href={link}>
+            <Link to={link}>
               <p>{title}</p>
-            </a>
+            </Link>
             <p className = "captionText">{caption}</p>
           </div>
           <div className = "postDate">

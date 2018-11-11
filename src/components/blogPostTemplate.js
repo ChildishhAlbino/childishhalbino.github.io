@@ -5,35 +5,36 @@ import Subble from './subble'
 import IntroSubble from '../components/IntroSubble'
 import NavBar from '../components/NavBar'
 import './blogPostTemplate.scss'
+import style from './subble.module.scss'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   if (post.frontmatter.latestEditDate === post.frontmatter.postDate) {
     return (
       <Bubble>
-        <NavBar />
-        <div>
-          <Subble stylingClass="subble One shadow">
-            <div class="blogPostFlex">
-              <h1>{post.frontmatter.title}</h1>
-              <div>
-                <p>Posted: {post.frontmatter.postDate}</p>
-              </div>
+      <NavBar />
+      <div>
+        <Subble styling = {[style.One, style.shadow]}>
+          <div class="blogPostFlex">
+            <h1>{post.frontmatter.title}</h1>
+            <div>
+              <p>Posted: {post.frontmatter.postDate}</p>
             </div>
-            <Subble stylingClass="subble Two shadow BlogPostBody">
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </Subble>
+          </div>
+          <Subble styling = {[style.Two, style.shadow, style.blogPostBody]}>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </Subble>
-        </div>
-        <IntroSubble />
-      </Bubble>
+        </Subble>
+      </div>
+      <IntroSubble />
+    </Bubble>
     )
   } else {
     return (
       <Bubble>
         <NavBar />
         <div>
-          <Subble stylingClass="subble One shadow">
+          <Subble styling = {[style.One, style.shadow]}>
             <div class="blogPostFlex">
               <h1>{post.frontmatter.title}</h1>
               <div>
@@ -43,7 +44,7 @@ export default ({ data }) => {
                 </p>
               </div>
             </div>
-            <Subble stylingClass="subble Two shadow BlogPostBody">
+            <Subble styling = {[style.Two, style.shadow, style.blogPostBody]}>
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </Subble>
           </Subble>

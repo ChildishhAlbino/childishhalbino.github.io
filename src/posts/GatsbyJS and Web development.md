@@ -1,6 +1,6 @@
 ---
 title: 'GatsbyJS:'
-slug: '/secondPost'
+slug: '/gatsbyJSandWebDevelopment'
 latestEditDate: '2018-11-04T22:47'
 postDate: '2018-11-02T02:17'
 caption: 'and my experience with web design / development.'
@@ -33,16 +33,14 @@ The one word answer? YES. GatsbyJS; while a little complicated at first, did rea
 
 ###Loved:
 
-React based components: I've never worked with React _itself_ but I've heard about it and now I see why it's so popular. GatsbyJS is based on React and so you can get the functionality of React without the full hassle of setting it up. Definitely scores points for being easy to use.
-
-- _Deployment Options:_ GatsbyJS is great because it literally spits out raw HTMl which means you can host it practically anywhere. No need to install it onto a WordPress server; which also means not having to pay for one because you can post this to GitHub Pages for free.
-- _PLUGINS:_ It has so many plugins and great community behind it. Things are really simple and easy to install - no harder than a node package. Things just work. I've got a plugin for Sass and a plugin for that above-mentioned GitHub Pages deployment.
+* _React based components:_ I've never worked with React _itself_ but I've heard about it and now I see why it's so popular. GatsbyJS is based on React and so you can get the functionality of React without the full hassle of setting it up. Definitely scores points for being easy to use.
+* _Deployment Options:_ GatsbyJS is great because it literally spits out raw HTMl which means you can host it practically anywhere. No need to install it onto a WordPress server; which also means not having to pay for one because you can post this to GitHub Pages for free.
+* _PLUGINS:_ It has so many plugins and great community behind it. Things are really simple and easy to install - no harder than a node package. Things just work. I've got a plugin for Sass and a plugin for that above-mentioned GitHub Pages deployment.
 
 ###Hated:
 
-_Documentation:_ I really didn't like the documentation for Gatsby (for reference: I'm talking about the Tutorial). I found it really didn't explain the individual lessons enough; instead relying on someone following the tutorial all the way through, which left me confused at times. Now in saying that - I'm not one who _likes_ to read tutorials nor do I learn well from reading them so maybe I'm not the target audience with this one.
-
-_Nothing else:_ Really, that's it. I really didn't have much to dislike with my experience using Gatsby.
+* _Documentation:_ I really didn't like the documentation for Gatsby (for reference: I'm talking about the Tutorial). I found it really didn't explain the individual lessons enough; instead relying on someone following the tutorial all the way through, which left me confused at times. Now in saying that - I'm not one who _likes_ to read tutorials nor do I learn well from reading them so maybe I'm not the target audience with this one. 
+* _Nothing else:_ Really, that's it. I really didn't have much to dislike with my experience using Gatsby.
 
 In saying that - there were plenty of frustrating moments not-exclusive to GatsbyJS. CSS has always felt like witchcraft to me and I genuiely don't believe I deserve to have my site look as nice as it does for how little I understand about CSS. However, I've definitely learned more - Flexbox, assigning multiple classes to an element, etc. and I look forward to continue to develop my skills.
 

@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => (
   <Bubble>
     <IntroSubble />
     <NavBar />
-    <BlogColatorSubble buildTime = {data.site.buildTimeZone}>
+    <BlogColatorSubble>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <BlogPostSubble
           title={node.frontmatter.title}
@@ -44,10 +44,6 @@ export const query = graphql`
         }
       }
     }
-  }
-
-  site {
-    buildTimeZone
   }
 }
 `
