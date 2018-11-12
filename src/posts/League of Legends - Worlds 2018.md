@@ -1,6 +1,5 @@
 ---
 title: 'Leauge of Legends: Worlds 2018!'
-slug: '/Worlds2018'
 latestEditDate: '2018-11-05T22:21'
 postDate: '2018-11-05T22:21'
 caption: 'My experience of and thoughts about Worlds 2018.'

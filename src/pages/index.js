@@ -34,8 +34,8 @@ export const query = graphql`
         id
         frontmatter {
           title
-          postDate(formatString: "LLLL")
-          latestEditDate(formatString: "LLLL")
+          postDate(formatString: "dddd[,] MMMM Do[,] YYYY[,] h:mm a")
+          latestEditDate(formatString: "dddd[,] MMMM Do[,] YYYY[,] h:mm a")
           caption
           datePrefix
         }

@@ -25,7 +25,7 @@ module.exports = {
       resolve: 'gatsby-plugin-buildtime-timezone',
       options: {
         tz: 'Australia/Sydney',
-        format: 'LLLL',
+        format: 'dddd[,] MMMM Do[,] YYYY[,] h:mm:ss a',
       },
     },
     'gatsby-transformer-sharp',

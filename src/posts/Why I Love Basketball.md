@@ -1,6 +1,5 @@
 ---
 title: "Why I Love Basketball."
-slug: '/WhyILoveBasketball'
 latestEditDate: '2018-11-05T10:43'
 postDate: '2018-11-01'
 caption: "It's an amazing sport!"

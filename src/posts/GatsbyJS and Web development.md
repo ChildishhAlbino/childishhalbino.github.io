@@ -1,6 +1,5 @@
 ---
 title: 'GatsbyJS:'
-slug: '/gatsbyJSandWebDevelopment'
 latestEditDate: '2018-11-04T22:47'
 postDate: '2018-11-02T02:17'
 caption: 'and my experience with web design / development.'
