@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import './bubble.scss'
+import style from './bubble.module.scss'
 
 const Bubble = ({ children }) => (
   <StaticQuery
@@ -27,7 +27,7 @@ const Bubble = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <body>
-          <div className="bubble">
+          <div className={style.bubble}>
             {children}
             <footer>
               <p>Site built in Gatsby JS. Last built: {data.site.buildTimeZone}</p>
