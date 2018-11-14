@@ -35,7 +35,7 @@ const ContactSubbleBar = () => (
       </Subble>
     </a>
     <a
-      href="https://twitter.com/ChildishhAlbino"
+      href="mailto:connorandrewwilliams.work@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
     >
