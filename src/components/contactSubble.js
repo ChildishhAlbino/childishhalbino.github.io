@@ -36,8 +36,6 @@ const ContactSubbleBar = () => (
     </a>
     <a
       href="mailto:connorandrewwilliams.work@gmail.com"
-      target="_blank"
-      rel="noopener noreferrer"
     >
       <Subble styling={[style.navBarItem, style.shadow, style.contactItemFlex]}>
         <IconContext.Provider
