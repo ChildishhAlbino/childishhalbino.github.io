@@ -6,8 +6,9 @@ import IntroSubble from '../components/IntroSubble'
 const ContactPage = () => (
   <Bubble>
     <NavBar />
-    <Subble stylingClass="subble Two shadow">
+    <Subble styling="Two shadow">
       <h1>Contact Me!</h1>
+      
     </Subble>
     <IntroSubble />
   </Bubble>
