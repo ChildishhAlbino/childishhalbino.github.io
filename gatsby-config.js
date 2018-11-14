@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Connor Williams',
-    siteUrl: `https://www.childishhalbino.com`,
+    siteUrl: `https://childishhalbino.github.io`,
     icon: 'src/images/icon.jpg'
   },
   plugins: [
@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'childishhalbino.github.io',
+        short_name: `Connor's Blog`,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
