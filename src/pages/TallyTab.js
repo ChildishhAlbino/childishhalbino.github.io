@@ -23,7 +23,7 @@ const TallyTabPage = () => (
           className={[style.inlineImages]}
           src="https://i.imgur.com/gYFe4yB.png"
         alt = "tallyTabUserScreen"/>
-        <div className={[style.inlineColumn]}>
+        <div className={[style.inlineColumn, style.wrap]}>
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
             <p>Tech Stack:</p>
             <ul>
@@ -47,7 +47,7 @@ const TallyTabPage = () => (
             </ul>
           </Subble>
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
-            <div className={[style.spacedEvenly]}>
+            <div className={[style.spacedEvenly, style.wrap]}>
               <p>Current Version: Alpha 1.5.1</p>
               <DownloadSubble link="https://github.com/ChildishhAlbino/TallyTab/releases/download/a038a93/Alpha.1.5.1.zip">
                 <p>Download</p>
