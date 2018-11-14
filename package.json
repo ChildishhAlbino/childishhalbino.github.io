@@ -19,7 +19,8 @@
     "node-sass": "^4.9.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.2"
   },
   "keywords": [
     "gatsby"
@@ -33,6 +34,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },

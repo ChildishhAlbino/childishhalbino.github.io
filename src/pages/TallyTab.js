@@ -22,7 +22,7 @@ const TallyTabPage = () => (
         <img
           className={[style.inlineImages]}
           src="https://i.imgur.com/gYFe4yB.png"
-        />
+        alt = "tallyTabUserScreen"/>
         <div className={[style.inlineColumn]}>
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
             <p>Tech Stack:</p>

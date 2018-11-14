@@ -1,4 +1,4 @@
-@import 'styling.scss';
+@import "styling.scss";
 
 .subble {
   display: flex;
@@ -41,6 +41,13 @@
   align-items: center;
 }
 
+.spaceAround {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+
 .inlineImages {
   margin: 10px;
   box-shadow: $boxShadow;
@@ -58,16 +65,41 @@
   flex-direction: column;
 }
 
-.fitContent{
+.fitContent {
   width: fit-content;
 }
 
-.blogHeaderFlex{
+.reactIcons{
+  margin: 10px;
+}
+
+.contactItemFlex{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactBarFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    color: white;
+  }
+  h2{
+    font-size: 60%;
+    text-overflow: clip;
+  }
+}
+
+.blogHeaderFlex {
   justify-content: space-between;
   align-items: baseline;
 }
 
-.tallyTabFlex{
+.tallyTabFlex {
   justify-content: space-between;
   align-items: baseline;
 }
@@ -114,16 +146,21 @@
   }
 }
 
+.contactItem{
+  display: flex;
+  flex-direction: row;
+}
+
 .download {
   background: $navBarColour;
   color: $textColour;
 }
 
-.download:hover{
+.download:hover {
   color: white;
 }
 
-.featuresList{
+.featuresList {
   flex-basis: fit-content;
 }
 
@@ -171,7 +208,7 @@
 
 .aboutBody {
   min-height: fit-content;
-  p + p{
+  p + p {
     margin-top: 2%;
   }
 }
@@ -179,4 +216,3 @@
 .wrap {
   flex-wrap: wrap;
 }
-
