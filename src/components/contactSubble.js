@@ -49,7 +49,7 @@ const ContactSubbleBar = () => (
       </Subble>
     </a>
     <a
-      href="https://twitter.com/ChildishhAlbino"
+      href="https://www.linkedin.com/in/childishhalbino/"
       target="_blank"
       rel="noopener noreferrer"
     >

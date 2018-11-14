@@ -6,8 +6,8 @@ import headerPhoto from '../images/me.jpg'
 import style from './subble.module.scss'
 
 const IntroSubble = () => (
-  <Subble styling = {[style.One, style.shadow]}>
-    <div className="">
+  <Subble styling = {[style.One, style.shadow,]}>
+    <div>
       <div className="introHeader">
         <h1>
           Hi! I'm <i>Connor Williams.</i>
