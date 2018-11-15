@@ -15,7 +15,7 @@ export default ({ data }) => {
       <NavBar />
       <div>
         <Subble styling = {[style.One, style.shadow]}>
-          <div class="blogPostFlex">
+          <div className = {style.blogPostFlex}>
             <h1>{post.frontmatter.title}</h1>
             <div>
               <p>Posted: {post.frontmatter.postDate}</p>
@@ -35,7 +35,7 @@ export default ({ data }) => {
         <NavBar />
         <div>
           <Subble styling = {[style.One, style.shadow]}>
-            <div class="blogPostFlex">
+            <div className = {style.blogPostFlex}>
               <h1>{post.frontmatter.title}</h1>
               <div>
                 <p>Posted: {post.frontmatter.postDate}</p>
