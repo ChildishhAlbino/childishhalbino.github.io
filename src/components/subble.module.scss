@@ -72,9 +72,10 @@
 }
 
 .contactItemFlex {
-  width: 25vh;
+  width: 15vmax;
   display: flex;
   align-items: center;
+  font-size: 1vmin;
 }
 
 .contactBarFlex {
@@ -86,9 +87,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  h2 {
-    font-size: 1.6vh;
-  }
 }
 
 .blogHeaderFlex {
