@@ -73,7 +73,7 @@
 }
 
 .contactItemFlex {
-  width: 27vh;
+  width: 30vh;
   display: flex;
   align-items: center;
 }
@@ -83,10 +83,12 @@
     color: white;
   }
   display: flex;
+  text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
+  align-content: center;
   h2 {
-    font-size: 1ex;
+    font-size: 1.6vh;
   }
 }
 
