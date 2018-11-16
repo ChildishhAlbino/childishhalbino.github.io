@@ -21,8 +21,8 @@ export default ({ data }) => {
               <p>Posted: {post.frontmatter.postDate}</p>
             </div>
           </div>
-          <Subble styling = {[style.Two, style.shadow, style.blogPostBody]}>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <Subble styling = {[style.Two, style.shadow]}>
+            <div className = {style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
           </Subble>
         </Subble>
       </div>
@@ -44,8 +44,8 @@ export default ({ data }) => {
                 </p>
               </div>
             </div>
-            <Subble styling = {[style.Two, style.shadow, style.blogPostBody]}>
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <Subble styling = {[style.Two, style.shadow]}>
+              <div className = {style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
             </Subble>
           </Subble>
         </div>
