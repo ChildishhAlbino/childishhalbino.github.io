@@ -25,6 +25,8 @@ really progressed since Year 10 IST in terms of Web Development. I could visuall
 I was at work one day; think it was a Wednesday, and we weren't very busy so I was checking my phone when a LinkedIn notification came up. A mentor from a bit of work experience I did; Ben, had posted about his personal experience moving his blog to something called GatsbyJS. The post went onto explain what he'd done previous, what GatsbyJS was and why he switched. This sounded perfect for my use and planned to look into it when I
 came back to my Website project.
 
+<br>
+
 ![GasbyJS](https://i.imgur.com/GlOARJJ.png 'GatsbyJS')
 
 <br>
@@ -46,7 +48,7 @@ The one word answer? YES. GatsbyJS; while a little complicated at first, did rea
 
 ###Hated:
 
-* _Documentation:_ I really didn't like the documentation for Gatsby (for reference: I'm talking about the Tutorial). I found it really didn't explain the individual lessons enough; instead relying on someone following the tutorial all the way through, which left me confused at times. Now in saying that - I'm not one who _likes_ to read tutorials nor do I learn well from reading them so maybe I'm not the target audience with this one. 
+* _Documentation:_ I really didn't like the documentation for Gatsby (for reference: I'm talking about the Tutorial). I found it really didn't explain the individual lessons enough; instead relying on someone following the tutorial all the way through, which left me confused at times. Now in saying that - I'm not one who _likes_ to read tutorials nor do I learn well from reading them so maybe I'm not the target audience with this one.
 * _Nothing else:_ Really, that's it. I really didn't have much to dislike with my experience using Gatsby.
 
 In saying that - there were plenty of frustrating moments not-exclusive to GatsbyJS. CSS has always felt like witchcraft to me and I genuiely don't believe I deserve to have my site look as nice as it does for how little I understand about CSS. However, I've definitely learned more - Flexbox, assigning multiple classes to an element, etc. and I look forward to continue to develop my skills.
