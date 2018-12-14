@@ -15,13 +15,12 @@ const TallyTabPage = () => (
       </h1>
       <Subble styling={[style.Two, style.shadow, style.inlineRow]}>
         <p>
-          Tally tab is a computer program that allows bars, restaurants, and
-          individuals to keep a track of drink consumption and keep track of a
-          tab for functions, events, and more.
+          <i>Tally tab</i> is a piece of software that enables bars, restaurants, and function halls to keep track of 
+          of consumption of products on a tab. 
         </p>
         <img
           className={[style.inlineImages]}
-          src="https://i.imgur.com/gYFe4yB.png"
+          src="https://i.imgur.com/s2CU3o8.png"
         alt = "tallyTabUserScreen"/>
         <div className={[style.inlineColumn, style.wrap]}>
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
@@ -40,7 +39,7 @@ const TallyTabPage = () => (
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
             <p>Features: </p>
             <ul>
-              <li>Drinks Menu creator</li>
+              <li>Menu builder and editor</li>
               <li>Saving and loading of functions and drinks menus</li>
               <li>Manages multiple functions at once</li>
               <li>Keeps a history of all changes made to the tab</li>
@@ -48,11 +47,11 @@ const TallyTabPage = () => (
           </Subble>
           <Subble styling={[style.Three, style.shadow, style.featuresList]}>
             <div className={[style.spacedEvenly, style.wrap]}>
-              <p>Current Version: Alpha 1.5.1</p>
-              <DownloadSubble link="https://github.com/ChildishhAlbino/TallyTab/releases/download/a038a93/Alpha.1.5.1.zip">
+              <p>Current Version: Alpha 1.7.1</p>
+              <DownloadSubble link="https://github.com/ChildishhAlbino/TallyTab/releases/download/d9d684a/TallyTab.V1.7.1a.zip">
                 <p>Download</p>
               </DownloadSubble>
-              <DownloadSubble link="https://github.com/ChildishhAlbino/TallyTab/releases/tag/a038a93">
+              <DownloadSubble link="https://github.com/ChildishhAlbino/TallyTab/releases/tag/d9d684a">
                 <p>Changelog</p>
               </DownloadSubble>
             </div>
