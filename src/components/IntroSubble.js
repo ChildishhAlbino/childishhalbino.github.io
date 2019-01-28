@@ -24,7 +24,7 @@ const IntroSubble = () => (
       <Subble styling={[style.Two, style.shadow]}>
         <div className={customStyle.blurb}>
           <img className={style.shadow} src={headerPhoto} alt="me.jpg" />
-          <div className = {[customStyle.blurbText]}>
+          <div className={[customStyle.blurbText]}>
             <p>
               I'm a Software Developer from Sydney who recently graduated with a
               Diploma of Software Development. This is a personal blog for me to
@@ -36,6 +36,8 @@ const IntroSubble = () => (
               Feel free to learn some more about me{" "}
               <Link to="about">here!</Link>
             </p>
+            <br></br>
+            <i className={customStyle.disclaimerText}>This website is currently under construction. There might be some bugs. Sorry!</i>
           </div>
         </div>
       </Subble>

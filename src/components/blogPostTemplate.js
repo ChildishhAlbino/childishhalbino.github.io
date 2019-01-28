@@ -12,30 +12,30 @@ export default ({ data }) => {
   if (post.frontmatter.latestEditDate === post.frontmatter.postDate) {
     return (
       <Bubble>
-      <NavBar />
-      <div>
-        <Subble styling = {[style.One, style.shadow]}>
-          <div className = {style.blogPostFlex}>
-            <h1>{post.frontmatter.title}</h1>
-            <div>
-              <p>Posted: {post.frontmatter.postDate}</p>
+        <NavBar />
+        <div>
+          <Subble styling={[style.One, style.shadow]}>
+            <div className={style.blogPostFlex}>
+              <h1>{post.frontmatter.title}</h1>
+              <div>
+                <p>Posted: {post.frontmatter.postDate}</p>
+              </div>
             </div>
-          </div>
-          <Subble styling = {[style.Two, style.shadow]}>
-            <div className = {style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
+            <Subble styling={[style.Two, style.shadow]}>
+              <div className={style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
+            </Subble>
           </Subble>
-        </Subble>
-      </div>
-      <IntroSubble />
-    </Bubble>
+        </div>
+        <IntroSubble />
+      </Bubble>
     )
   } else {
     return (
       <Bubble>
         <NavBar />
         <div>
-          <Subble styling = {[style.One, style.shadow]}>
-            <div className = {style.blogPostFlex}>
+          <Subble styling={[style.One, style.shadow]}>
+            <div className={style.blogPostFlex}>
               <h1>{post.frontmatter.title}</h1>
               <div>
                 <p>Posted: {post.frontmatter.postDate}</p>
@@ -44,8 +44,8 @@ export default ({ data }) => {
                 </p>
               </div>
             </div>
-            <Subble styling = {[style.Two, style.shadow]}>
-              <div className = {style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
+            <Subble styling={[style.Two, style.shadow]}>
+              <div className={style.blogPostBody} dangerouslySetInnerHTML={{ __html: post.html }} />
             </Subble>
           </Subble>
         </div>

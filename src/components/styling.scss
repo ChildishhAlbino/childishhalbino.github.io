@@ -17,12 +17,18 @@ $subbleTwo: #D1D1D1;
 $subbleThree: #B7B7B7;
 $subbleFour: #96A0AA;
 
+
+$baseFontSize: 12px;
+$headingFontSize: 20px;
+$subHeadingFontSize: 18px;
+$smallSubHeadingFontSize: 14px;
+
 $boxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 footer{
   display: flex;
   justify-content: flex-end;
-  font-size: 1vmin;
+  font-size: 10px;
 }
 
 body {
@@ -30,6 +36,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  margin: 1px;
 }
 
 img {

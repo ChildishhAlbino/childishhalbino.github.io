@@ -11,7 +11,7 @@ const ContactSubbleBar = () => (
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Subble styling={[style.navBarItem, style.shadow, style.contactItemFlex]}>
+      <Subble styling={[style.shadow, style.contactItem]}>
         <IconContext.Provider
           value={{ className: style.reactIcons, size: 100 }}
         >
@@ -20,12 +20,13 @@ const ContactSubbleBar = () => (
         <h2>@ChildishhAlbino</h2>
       </Subble>
     </a>
+
     <a
       href="https://github.com/ChildishhAlbino"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Subble styling={[style.navBarItem, style.shadow, style.contactItemFlex]}>
+      <Subble styling={[style.shadow, style.contactItem]}>
         <IconContext.Provider
           value={{ className: style.reactIcons, size: 100 }}
         >
@@ -34,12 +35,13 @@ const ContactSubbleBar = () => (
         <h2>/ChildishhAlbino</h2>
       </Subble>
     </a>
+
     <a
       href="mailto:connorandrewwilliams.work@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Subble styling={[style.navBarItem, style.shadow, style.contactItemFlex]}>
+      <Subble styling={[style.shadow, style.contactItem]}>
         <IconContext.Provider
           value={{ className: style.reactIcons, size: 100 }}
         >
@@ -48,16 +50,17 @@ const ContactSubbleBar = () => (
         <h2>connorandrewwilliams.work@gmail.com</h2>
       </Subble>
     </a>
+
     <a
       href="https://www.linkedin.com/in/childishhalbino/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Subble styling={[style.navBarItem, style.shadow, style.contactItemFlex]}>
+      <Subble styling={[style.shadow, style.contactItem]}>
         <IconContext.Provider
           value={{ className: style.reactIcons, size: 100 }}
         >
-          <FaLinkedin/>
+          <FaLinkedin />
         </IconContext.Provider>
         <h2>/ChildishhAlbino</h2>
       </Subble>

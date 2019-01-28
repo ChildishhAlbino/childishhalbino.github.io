@@ -1,13 +1,12 @@
 import React from 'react'
-import {Link} from 'gatsby'
-import './blogPostSubble.scss'
+import { Link } from 'gatsby'
 import Subble from './subble'
 import style from './subble.module.scss'
 
 const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }) => {
   if (editDate === postDate) {
     return (
-      <Subble styling = {[style.Two, style.shadow]}>
+      <Subble styling={[style.Two, style.shadow]}>
         <div className="blogPost">
           <div className="postContent">
             <Link to={link}>
@@ -25,15 +24,15 @@ const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }
     )
   } else {
     return (
-      <Subble styling = {[style.Two, style.shadow]}>
-        <div className ="blogPost">
-          <div className = "postContent">
+      <Subble styling={[style.Two, style.shadow]}>
+        <div className = {style.blogPostSubble}>
+          <div>
             <Link to={link}>
-              <p>{title}</p>
+              <h1>{title}</h1>
             </Link>
-            <p className = "captionText">{caption}</p>
+            <p>{caption}</p>
           </div>
-          <div className = "postDate">
+          <div>
             <p>
               {editPrefix} {editDate}
             </p>
