@@ -1,6 +1,6 @@
 ---
 title: 'GatsbyJS:'
-latestEditDate: '2019-01-29T23:59'
+latestEditDate: '2019-01-30T00:19'
 postDate: '2018-11-02T02:17'
 caption: 'and my experience with web design / development.'
 datePrefix: 'Edited:'
@@ -29,9 +29,17 @@ The one word answer? YES. GatsbyJS; while a little complicated at first, did rea
 
 ### _Loved:_
 
-* _React based components:_ I've never worked with React _itself_ but I've heard about it and now I see why it's so popular. GatsbyJS is based on React and so you can get the functionality of React without the full hassle of setting it up. Definitely scores points for being easy to use.
-* _Deployment Options:_ GatsbyJS is great because it literally spits out raw HTMl which means you can host it practically anywhere. No need to install it onto a WordPress server (or anything of the sort); which also means not having to pay for one because you can post this to GitHub Pages for free.
-* _PLUGINS:_ It has so many plugins and great community behind it. Things are really simple and easy to install - no harder than a node package. Things just work. I've got a plugin for Sass and a plugin for that above-mentioned GitHub Pages deployment.
+#### * _React based components:_
+
+ I've never worked with React _itself_ but I've heard about it and now I see why it's so popular. GatsbyJS is based on React and so you can get the functionality of React without the full hassle of setting it up. Definitely scores points for being easy to use.
+
+#### * _Deployment Options:_
+
+GatsbyJS is great because it literally spits out raw HTMl which means you can host it practically anywhere. No need to install it onto a WordPress server (or anything of the sort); which also means not having to pay for one because you can post this to GitHub Pages for free.
+
+#### * _PLUGINS!!!:_
+
+It has so many plugins and great community behind it. Things are really simple and easy to install - no harder than a node package. Things just work. I've got a plugin for Sass and a plugin for that above-mentioned GitHub Pages deployment.
 
 ### _Hated:_
 

@@ -156,7 +156,7 @@
     font-size: 100%;
     padding: $blogPostSpacing;
   }
-  
+
   h1, h2, h3, h4, h5, h6{
     padding: $blogPostSpacing;
   }
@@ -176,7 +176,8 @@
 
   img {
     width: 100%;
-    max-width: 700px;
+    // max-width: 100%;
+     
   }
 }
 
