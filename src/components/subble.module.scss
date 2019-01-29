@@ -149,20 +149,30 @@
   margin-left: 2%;
   margin-right: 2%;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   font-size: $baseFontSize;
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: $headingFontSize;
-  }
 
   p, li{
     font-size: 100%;
+    padding: $blogPostSpacing;
   }
+  
+  h1, h2, h3, h4, h5, h6{
+    padding: $blogPostSpacing;
+  }
+
+  // p{
+  //   margin-bottom: $blogPostSpacing;
+  // }
+
+  // p:first-of-type{
+  //   margin-top: 0;
+  //   margin-bottom: $blogPostSpacing;
+  // }
+
+  // p:last-of-type{
+  //   margin-bottom: 0px;
+  // }
 
   img {
     width: 100%;
