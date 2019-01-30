@@ -21,7 +21,7 @@ const AboutPage = () => (
           <BioSubble toggle={false} title="More than the tl;dr:">
             <h3><i>The Computer Guy:</i></h3>
             <p>
-              Since a young age; I've had an interest in - and been very good with computers. My Dad worked in IT when I was born and I look back fondly on memories of building my first desktop PC (with his help of course) or the shock on his face when a five-year-old me worked out how to install a PC game (Monster's Inc.) I wanted to play because he wouldn't install it for me. Looking back, that would be a reoccuring theme in my life.
+              Since a young age; I've had an interest in - and been very good with computers. My Dad worked in IT when I was born and I look back fondly on memories of building my first desktop PC (with his help of course) or the shock on his face when a five-year-old me worked out how to install a PC game (Monster's Inc.) I wanted to play because he wouldn't install it for me. Looking back, that would be a recuring theme in my life.
             </p>
             <br></br>
             <p>
