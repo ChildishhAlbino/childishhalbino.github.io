@@ -31,7 +31,7 @@ const AboutPage = () => (
             <h3><i>Why Software then?</i></h3>
             <p>
               You might be asking yourself - <i>'why did he choose to be a Software Developer then?"</i> The answer is simple
-              - Minecraft. Thirteen-year-old me LOVED Minecraft. I loved building Redstone (the game's version of electrical circuitry) contraptions especially. It was at this point that I decided to learn how to 'mod' the game. Using a YouTube tutorial - I customized the game and added custom blocks for no reason other than my own enjoyment. While I never actually fleshed out these mods - it ignited a spark for programming that has lasted to this day.
+              - Minecraft. Thirteen-year-old me LOVED Minecraft. I loved building Redstone (the game's version of electrical circuitry) contraptions especially. It was at this point that I decided to learn how to 'mod' the game. Using a YouTube tutorial - I modified the game and added custom blocks for no reason other than my own enjoyment. While I never actually fleshed out these mods - it ignited a spark for programming that has lasted to this day.
             </p>
             <br></br>
             <p>
@@ -44,7 +44,12 @@ const AboutPage = () => (
             <br></br>
             <h3><i>Confidence Boost:</i></h3>
             <p>
-              Despite how often I programmed; I didn't consider myself that <i>good</i> at it until my major project of IPT. We had to produce some form of Information System, and being a basketball fan - I designed an application that allowed our school basketball team to score and time the games rather than using a paper system. After a recommendation to try Unity, I looked into it and quickly picked up C# and the Unity interface to develop a prototype in roughly a week. Looking back at the code now; I can easily pick out hundreds of errors, but it taught me about objective oriented programming and software architechture. I went on to learn more about those topics at TAFE - cementing my passion for programming and Sofware Developement. I'm eager to enter the industry and improve even more as a developer and as a person.
+              Despite how often I programmed; I didn't consider myself that <i>good</i> at it until my major project of IPT. We had to produce some form of Information System, and being a basketball fan - I designed an application that allowed our school basketball team to score and time the games rather than using a paper system. After a recommendation to try Unity, I looked into it and quickly picked up C# and the Unity interface to develop a prototype in roughly a week. Looking back at the code now; I can easily pick out hundreds of errors, but it taught me about Objective Oriented Programming and software architechture. I went on to learn more about those topics and programming in general at TAFE - cementing my passion for programming and Sofware Developement. I'm eager to enter the industry and improve even more as a developer and as a person.
+            </p>
+            <br></br>
+            <h3><i>Today:</i></h3>
+            <p>
+              As I'm not currently employed in the industry, I'm spending time developing side projects in a variety of languages and frameworks to improve as a developer overall and to produce a well-rounded portfolio. As a developer; I'm a quick learner and I pick up new languages, frameworks, and practices fast. I'm pragmatic about problem solving and do my best to be foward thinking with all possible solutions. I have an ability to detect the root cause of an error and eliminate red herrings easily. I'm always willing to try new things and I work well with team members.
             </p>
             <br></br>
             <h3><i>Outside of the Industry:</i></h3>

@@ -16,9 +16,11 @@ class BioSubble extends React.Component {
     render() {
         if (this.state.toggle === true) {
             return (
-                <div onClick={() => { this.handleClick() }}>
+                <div>
                     <Subble styling={[style.Three, style.shadow]}>
-                        <h2>{this.state.title}</h2>
+                        <div onClick={() => { this.handleClick() }}>
+                            <h2>{this.state.title}</h2>
+                        </div>
                         <Subble styling={[style.Four, style.shadow]}>
                             {this.state.children}
                         </Subble>
