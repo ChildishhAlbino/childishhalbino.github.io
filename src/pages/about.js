@@ -18,7 +18,18 @@ const AboutPage = () => (
             <p>Hello</p>
           </BioSubble>
           <BioSubble toggle={false} title="Education:">
-            <p>Hello</p>
+            <ul>
+              <li>Diploma of Software Development <i>(completed, June 2018)</i></li>
+              <li>Higher School Certificate - Greystanes High School <i>(graduated, 2017)</i>
+              </li>
+              <ul>
+                <li>Band 5 in Hospitality</li>
+                <li>Band 4 in Physics</li>
+                <li>Band 4 in English</li>
+                <li>Band 4 in IPT</li>
+              </ul>
+              <li>Certificate II in Hospitality <i>(SIT20213)</i></li>
+            </ul>
           </BioSubble>
         </Subble>
       </div>
