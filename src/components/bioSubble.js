@@ -1,7 +1,8 @@
 import React from 'react'
 import Subble from '../components/subble'
 import style from '../components/subble.module.scss'
-
+import { FaCaretDown } from "react-icons/fa/"
+import { IconContext } from "react-icons";
 class BioSubble extends React.Component {
     constructor(props) {
         super(props);
@@ -18,22 +19,32 @@ class BioSubble extends React.Component {
             return (
                 <div>
                     <Subble styling={[style.Three, style.shadow]}>
-                        <div onClick={() => { this.handleClick() }}>
+                        <div onClick={() => { this.handleClick() }} className={style.bioSubbleHeader}>
                             <h2>{this.state.title}</h2>
+                            <IconContext.Provider
+                                value={{ className: style.reactIcons, size: 35 }}
+                            >
+                                <FaCaretDown />
+                            </IconContext.Provider>
                         </div>
                         <Subble styling={[style.Four, style.shadow]}>
                             {this.state.children}
                         </Subble>
                     </Subble>
-
-
                 </div>
             )
         } else if (this.state.toggle === false) {
             return (
                 <div onClick={() => { this.handleClick() }}>
                     <Subble styling={[style.Three, style.shadow]}>
-                        <h2>{this.state.title}</h2>
+                        <div className = {style.bioSubbleHeader}>
+                            <h2>{this.state.title}</h2>
+                            <IconContext.Provider
+                                value={{ className: style.reactIcons, size: 35 }}
+                            >
+                                <FaCaretDown />
+                            </IconContext.Provider>
+                        </div>
                     </Subble>
                 </div>
             )
