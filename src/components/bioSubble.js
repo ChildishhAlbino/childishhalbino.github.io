@@ -1,7 +1,7 @@
 import React from 'react'
 import Subble from '../components/subble'
 import style from '../components/subble.module.scss'
-import { FaCaretDown } from "react-icons/fa/"
+import { FaCaretDown, FaCaretUp } from "react-icons/fa/"
 import { IconContext } from "react-icons";
 class BioSubble extends React.Component {
     constructor(props) {
@@ -18,13 +18,12 @@ class BioSubble extends React.Component {
         if (this.state.toggle === true) {
             return (
                 <div>
-                    <Subble styling={[style.Three, style.shadow]}>
-                        <div onClick={() => { this.handleClick() }} className={style.bioSubbleHeader}>
+                    <Subble styling={[style.bioSubbleOpen, style.shadow]}>
+                        <div onClick={() => { this.handleClick() }} className={[style.bioSubbleHeader, style.bioSubbleOpen].join(' ')}>
                             <h2>{this.state.title}</h2>
                             <IconContext.Provider
-                                value={{ className: style.reactIcons, size: 35 }}
-                            >
-                                <FaCaretDown />
+                                value={{ className: style.reactIcons, size: 35 }}>
+                                <FaCaretUp />
                             </IconContext.Provider>
                         </div>
                         <Subble styling={[style.Four, style.shadow]}>
@@ -40,8 +39,7 @@ class BioSubble extends React.Component {
                         <div className = {style.bioSubbleHeader}>
                             <h2>{this.state.title}</h2>
                             <IconContext.Provider
-                                value={{ className: style.reactIcons, size: 35 }}
-                            >
+                                value={{ className: style.reactIcons, size: 35 }}>
                                 <FaCaretDown />
                             </IconContext.Provider>
                         </div>

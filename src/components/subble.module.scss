@@ -161,23 +161,8 @@
     padding: $blogPostSpacing;
   }
 
-  // p{
-  //   margin-bottom: $blogPostSpacing;
-  // }
-
-  // p:first-of-type{
-  //   margin-top: 0;
-  //   margin-bottom: $blogPostSpacing;
-  // }
-
-  // p:last-of-type{
-  //   margin-bottom: 0px;
-  // }
-
   img {
     width: 100%;
-    // max-width: 100%;
-     
   }
 }
 
@@ -262,4 +247,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+}
+
+.bioSubbleOpen{
+  // color: $navBarItemColour;
+  background: $navBarColour;
+  .bioSubbleHeader{
+    background: $navBarItemColour;
+    color: white;
+    box-shadow: $boxShadow;
+  }
+  // padding: 10px;
+  // font-size: 150px;
 }
