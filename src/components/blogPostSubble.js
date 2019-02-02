@@ -7,14 +7,14 @@ const BlogPostSubble = ({ title, caption, postDate, editDate, editPrefix, link }
   if (editDate === postDate) {
     return (
       <Subble styling={[style.Two, style.shadow]}>
-        <div className="blogPost">
-          <div className="postContent">
+        <div className = {style.blogPostSubble}>
+          <div>
             <Link to={link}>
-              <p>{title}</p>
+              <h1>{title}</h1>
             </Link>
-            <p className="captionText">{caption}</p>
+            <p>{caption}</p>
           </div>
-          <div className="postDate">
+          <div>
             <p>
               Posted: {postDate}
             </p>
