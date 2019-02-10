@@ -146,12 +146,8 @@
 }
 
 .blogPostBody {
-	margin-left: 2%;
-	margin-right: 2%;
 	display: flex;
 	flex-flow: column wrap;
-	font-size: $baseFontSize;
-
 	img {
 		width: 100%;
 	}
