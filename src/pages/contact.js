@@ -1,16 +1,14 @@
-import React from 'react'
-import Bubble from '../components/bubble'
-import NavBar from '../components/NavBar'
-import Subble from '../components/subble'
-import IntroSubble from '../components/IntroSubble'
-const ContactPage = () => (
-  <Bubble>
-    <NavBar />
-    <Subble stylingClass="subble Two shadow">
-      <h1>Contact Me!</h1>
-    </Subble>
-    <IntroSubble />
-  </Bubble>
-)
+import React from 'react';
+import { Link } from 'gatsby';
 
-export default ContactPage
+import Layout from '../components/layout/layout.js';
+import SEO from '../components/seo';
+
+const ContactPage = () => (
+	<Layout>
+		<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
+		<h1>Contact</h1>
+	</Layout>
+);
+
+export default ContactPage;

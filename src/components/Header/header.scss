@@ -1,0 +1,16 @@
+@import "../General\ Styling/Styling.scss";
+
+.header {
+	@media screen and (max-width: 400px) {
+		flex-flow: row wrap;
+	}
+	justify-content: space-between;
+	display: flex;
+	a {
+		color: white;
+	}
+	text-align: center;
+	flex-flow: row nowrap;
+	margin-bottom: 1rem;
+	background: $dark;
+}

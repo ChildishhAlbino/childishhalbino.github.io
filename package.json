@@ -4,22 +4,25 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.35",
+    "ajv": "^6.8.1",
+    "gatsby": "^2.0.118",
     "gatsby-image": "^2.0.19",
     "gatsby-plugin-buildtime-timezone": "^1.0.3",
     "gatsby-plugin-manifest": "^2.0.7",
-    "gatsby-plugin-offline": "^2.0.10",
+    "gatsby-plugin-offline": "^2.0.23",
     "gatsby-plugin-react-helmet": "^3.0.1",
     "gatsby-plugin-sass": "^2.0.2",
     "gatsby-plugin-sharp": "^2.0.11",
     "gatsby-source-filesystem": "^2.0.6",
-    "gatsby-transformer-remark": "^2.1.11",
+    "gatsby-transformer-remark": "^2.2.4",
     "gatsby-transformer-sharp": "^2.1.7",
     "moment": "^2.22.2",
     "node-sass": "^4.9.4",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-helmet": "^5.2.0"
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.2",
+    "react-markdown": "^4.0.6"
   },
   "keywords": [
     "gatsby"
@@ -33,6 +36,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
     "gh-pages": "^2.0.1",
     "prettier": "^1.14.2"
   },

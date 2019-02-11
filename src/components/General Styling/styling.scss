@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// START COLOURS
+$light: #eeeeee;
+$light2: #ddd;
+$dark: #444444;
+$dark2: #999999;
+$highlight: rebeccapurple;
+// END COLOURS
+
+* {
+	// margin: 0;
+	font-family: "Open Sans";
+	a {
+		color: $highlight;
+		text-decoration: none;
+	}
+	border-radius: 10px;
+}
+
+.shadow {
+	box-shadow: 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+body {
+	font-size: 1rem;
+	background: $light;
+}
+
+footer {
+	text-align: right;
+}

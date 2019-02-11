@@ -1,0 +1,15 @@
+@import "../../General\ Styling/styling.scss";
+
+.headerItem {
+	@media screen and (max-width: 800px) {
+		font-size: 0.5rem;
+	}
+	font-size: 1.25rem;
+	flex-basis: 25rem;
+	margin: 1rem 1rem;
+}
+
+.headerItem:hover {
+	background: $highlight;
+	color: white;
+}

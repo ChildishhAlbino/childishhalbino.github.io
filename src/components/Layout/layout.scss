@@ -1,0 +1,21 @@
+@import '../General\ Styling/Styling.scss';
+
+.children {
+	margin: 0rem 1rem 0rem;
+}
+
+.grid {
+	@media screen and (max-width: 700px) {
+		grid-template-columns: 1fr;
+	}
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	justify-items: center;
+	grid-gap: 1em;
+}
+
+.grid > .gridItem {
+	background: $light2;
+	width: 100%;
+	text-align: center;
+}
