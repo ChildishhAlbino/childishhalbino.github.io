@@ -3,7 +3,6 @@ title: 'GatsbyJS:'
 latestEdit: '2019-01-30T00:19'
 postDate: '2018-11-02T02:17'
 caption: 'and my experience with web design / development.'
-datePrefix: 'Edited:'
 ---
 # _So let me paint the scene for you first:_
 

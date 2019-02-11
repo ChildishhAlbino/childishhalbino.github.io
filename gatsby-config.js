@@ -34,7 +34,7 @@ module.exports = {
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `posts`,
-				path: path.join(__dirname, `src`, `posts`)
+				path: path.join(__dirname, `src`, `data`, `posts`)
 			}
 		},
 		`gatsby-transformer-remark`,

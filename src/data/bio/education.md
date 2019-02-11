@@ -1,5 +1,9 @@
 ---
 order: "3"
+title: 'Education'
+latestEdit: '2019-01-30T00:19'
+postDate: '2018-11-02T02:17'
+caption: 'My education.'
 ---
 
 # Education

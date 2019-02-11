@@ -27,7 +27,7 @@ const blurbQuery = graphql`
 				}
 			}
 		}
-		blurb: file(name: { eq: "blurb" }) {
+		blurb: file(relativePath: { eq: "blurb.md" }) {
 			childMarkdownRemark {
 				html
 				htmlAst

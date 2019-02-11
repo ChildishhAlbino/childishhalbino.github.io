@@ -1,5 +1,8 @@
 ---
-title: "blurb"
+title: 'Blurb'
+latestEdit: '2019-01-30T00:19'
+postDate: '2018-11-02T02:17'
+caption: 'The blurb of my website.'
 ---
 
 # Hi! I'm Connor Williams

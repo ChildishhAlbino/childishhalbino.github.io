@@ -17,7 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
 	const { createPage } = actions;
 	return graphql(`
     {
-      allMarkdownRemark (filter: { fileAbsolutePath: { regex: "src/posts/" } }) {
+      allMarkdownRemark (filter: { fileAbsolutePath: { regex: "/posts/" } }) {
         edges {
           node {
             fields {
@@ -31,7 +31,7 @@ exports.createPages = ({ graphql, actions }) => {
 		result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 			createPage({
 				path: node.fields.slug,
-				component: path.resolve(`./src/components/Blog/blogPostTemplate/BlogPostTemplate.js`),
+				component: path.resolve(`./src/components/Blog/BlogPostTemplate/blogPostTemplate.js`),
 				context: {
 					// Data passed to context is available
 					// in page queries as GraphQL variables.
