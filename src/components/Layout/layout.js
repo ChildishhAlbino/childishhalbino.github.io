@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import Header from '../Header/header';
-import Markdown from 'react-markdown';
-
 import Blurb from '../Blurb/blurb';
 
 import './layout.scss';

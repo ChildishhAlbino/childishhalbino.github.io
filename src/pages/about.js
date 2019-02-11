@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 import AboutCard from '../components/About/aboutCard';
 import Layout from '../components/layout/layout.js';
 import SEO from '../components/seo';

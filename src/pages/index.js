@@ -1,14 +1,13 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
 import BlogCollator from '../components/Blog/blogCollator';
-import Layout from "../components/layout/layout.js"
-import SEO from "../components/seo"
+import Layout from '../components/layout/layout.js';
+import SEO from '../components/seo';
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <BlogCollator></BlogCollator>
-  </Layout>
-)
+	<Layout>
+		<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
+		<BlogCollator />
+	</Layout>
+);
 
-export default IndexPage
+export default IndexPage;
