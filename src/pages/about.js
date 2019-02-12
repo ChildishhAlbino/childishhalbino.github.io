@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import AboutCard from '../components/About/aboutCard';
+import MarkdownViewer from '../components/MarkdownViewer/markdownViewer';
 import Layout from '../components/layout/layout.js';
 import SEO from '../components/seo';
 
@@ -14,7 +14,7 @@ const AboutPage = () => (
 				<Layout>
 					<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
 					<h1>ABOUT</h1>
-					<AboutCard cards={cards} />
+					<MarkdownViewer cards={cards} />
 				</Layout>
 			);
 		}}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './AboutCard.scss';
+import './MarkdownViewer.scss';
 import Markdown from 'react-markdown';
 import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
 
@@ -13,7 +13,8 @@ class AboutCard extends React.Component {
 		});
 		this.state = {
 			cards: cards,
-			selected: cards[0]
+			selected: cards[0],
+			styling: props.styling
 		};
 	}
 
@@ -40,7 +41,7 @@ class AboutCard extends React.Component {
 					</div>
 				</div>
 				<div className="cards alignLeft">
-					<Markdown source={this.state.selected.rawMarkdownBody} />
+					<Markdown className={this.state.styling} source={this.state.selected.rawMarkdownBody} />
 				</div>
 			</div>
 		);

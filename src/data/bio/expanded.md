@@ -1,9 +1,5 @@
 ---
 order: "2"
-title: 'Expanded:'
-latestEdit: '2019-01-30T00:19'
-postDate: '2018-11-02T02:17'
-caption: 'An expanded '
 ---
 
 # More than a tl;dr

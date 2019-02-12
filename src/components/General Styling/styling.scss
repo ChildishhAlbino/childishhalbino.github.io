@@ -23,6 +23,16 @@ $highlight: rebeccapurple;
 	box-shadow: 1px 3px rgba(0, 0, 0, 0.2);
 }
 
+.projects {
+	img {
+		width: 100%;
+	}
+	p {
+		font-size: 1.0675rem;
+	}
+	font-size: 1.125rem;
+}
+
 body {
 	font-size: 1rem;
 	background: $light;
