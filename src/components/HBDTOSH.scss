@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	background: hotpink;
+	color: white;
+}
+
+body > div {
+	p,
+	h1,
+	h2,
+	h3,
+	h4 {
+		margin: 0.35rem;
+	}
+}
+
+img {
+	max-width: 500px;
+	width: 100%;
+}
