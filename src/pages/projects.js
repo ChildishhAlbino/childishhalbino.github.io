@@ -2,7 +2,7 @@ import React from 'react';
 import MarkdownViewer from '../components/MarkdownViewer/markdownViewer';
 import Layout from '../components/layout/layout.js';
 import SEO from '../components/seo';
-import { StaticQuery } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
 const ProjectsPage = () => (
 	<StaticQuery
