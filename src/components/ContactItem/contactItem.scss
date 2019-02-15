@@ -1,0 +1,19 @@
+@import "../General\ Styling/Styling.scss";
+
+p {
+	font-size: 1rem;
+}
+.icon {
+	@media screen and (max-width: 700px) {
+		flex-basis: 0.25em;
+	}
+	font-size: 10rem;
+	margin: 1rem 0em;
+	background: $dark;
+	padding: 1rem;
+	color: white;
+	flex-basis: 35rem;
+}
+.icon:hover {
+	background: $highlight;
+}
