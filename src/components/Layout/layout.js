@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
 									{children} {/* page content goes here */}
 								</div>
 							</div>
-							<div className="gridItem shadow">
+							<div className="gridItem blurbItem shadow">
 								<Blurb />
 							</div>
 						</div>
