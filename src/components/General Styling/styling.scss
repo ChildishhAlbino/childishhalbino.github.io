@@ -28,6 +28,26 @@ $highlight: rebeccapurple;
 	}
 }
 
+.icons {
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 4rem;
+	justify-content: space-around;
+	p {
+		font-size: 0.75rem;
+	}
+	.icon {
+		margin: 1rem;
+		background: $dark;
+		padding: 1rem;
+		color: white;
+		min-width: 3.5em;
+	}
+	.icon:hover {
+		background: $highlight;
+	}
+}
+
 body {
 	font-size: 1rem;
 	background: $light;
