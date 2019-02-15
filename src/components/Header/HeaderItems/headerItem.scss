@@ -1,0 +1,13 @@
+@import "../../General\ Styling/styling.scss";
+
+.headerItem {
+	font-size: 0.5rem;
+	// margin: 0.4rem 1rem;
+	padding: 0.5em;
+	flex-basis: 25rem;
+}
+
+.headerItem:hover {
+	background: $highlight;
+	color: white;
+}

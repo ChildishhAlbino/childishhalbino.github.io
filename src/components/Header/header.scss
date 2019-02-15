@@ -1,0 +1,19 @@
+@import "../General\ Styling/Styling.scss";
+
+.header {
+	@media screen and (max-width: 400px) {
+		flex-flow: column;
+		.headerItem {
+			flex-basis: 1rem;
+		}
+	}
+	justify-content: space-evenly;
+	display: flex;
+	a {
+		color: white;
+	}
+	text-align: center;
+	flex-flow: row nowrap;
+	margin-bottom: 0.5rem;
+	background: $dark;
+}

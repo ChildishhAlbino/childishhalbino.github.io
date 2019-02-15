@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Staatliches");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+// START COLOURS
+$light: #eeeeee;
+$light2: #ddd;
+$dark: #444444;
+$dark2: #999999;
+
+$darkHighlight: #3d348b;
+$highlight: #6633ca;
+// END COLOURS
+
+* {
+	font-family: "Open Sans";
+	a {
+		color: $highlight;
+		text-decoration: none;
+	}
+	border-radius: 10px;
+}
+
+.shadow {
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.projects {
+	img {
+		width: 100%;
+	}
+}
+
+.icons {
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 4rem;
+	justify-content: space-around;
+	p {
+		font-size: 0.75rem;
+	}
+	.icon {
+		margin: 1rem;
+		background: $dark;
+		padding: 1rem;
+		color: white;
+		min-width: 3.5em;
+	}
+	.icon:hover {
+		background: $highlight;
+	}
+}
+
+body {
+	margin-top: 0.25rem;
+	font-size: 1rem;
+	background: $light;
+}
+
+footer {
+	text-align: right;
+}
