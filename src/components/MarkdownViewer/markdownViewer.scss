@@ -6,16 +6,12 @@
 	}
 	.arrows {
 		.arrow {
-			font-size: 4rem;
+			font-size: 2rem;
 		}
 		color: $dark;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		p {
-			font-size: 1rem;
-			margin: 0px 1rem;
-		}
 		.arrow:hover {
 			color: $highlight;
 		}
