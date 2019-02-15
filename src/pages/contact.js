@@ -8,19 +8,19 @@ const ContactPage = () => (
 		<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
 		<h1>Want to contact me? Try here :D</h1>
 		<div className="icons">
-			<div className="icon">
+			<div className="icon shadow">
 				<FaGithub />
 				<p>/childishhalbino</p>
 			</div>
-			<div className="icon">
+			<div className="icon shadow">
 				<FaEnvelope />
 				<p>connorandrewwilliams.work@gmail.com</p>
 			</div>
-			<div className="icon">
+			<div className="icon shadow">
 				<FaLinkedin />
 				<p>/childishhalbino</p>
 			</div>
-			<div className="icon">
+			<div className="icon shadow">
 				<FaTwitter />
 				<p>@childishhalbino</p>
 			</div>
