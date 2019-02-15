@@ -13,7 +13,7 @@ const BlogSlug = (props) => {
 					<h2>{frontmatter.title}</h2>
 					<p>{frontmatter.caption}</p>
 				</div>
-				<h2>{frontmatter.postDate}</h2>
+				<h2>{frontmatter.latestEdit}</h2>
 			</div>
 		</Link>
 	);

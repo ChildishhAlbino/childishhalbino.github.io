@@ -10,7 +10,7 @@ I'm not **_normally_** fond of Web development. I'd much prefer write a program 
 
 ## _So that's what I did:_
 
-I wrote a very crude site with a header and a footer but I soon realised that I was copy-pasting code all of the place and it never _quite_ looked the way I wanted it too. I felt really frustrated that I hadn't
+I wrote a very crude site with a header and a footer but I soon realised that I was copy-pasting code all over the place and it never _quite_ looked the way I wanted it too. I felt really frustrated that I hadn't
 really progressed since Year 10 IST in terms of Web Development. I could visualise a nice looking website and I could _almost_ get what I wanted but being a perfectionist - I never felt right posting it. If I was going to make it in the software industry - I was going to have to work this out.
 
 ## _'and then the lightbulb went "dink"':_
