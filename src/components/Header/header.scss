@@ -2,9 +2,9 @@
 
 .header {
 	@media screen and (max-width: 400px) {
-		flex-flow: row wrap;
+		flex-flow: column;
 	}
-	justify-content: space-between;
+	justify-content: space-evenly;
 	display: flex;
 	a {
 		color: white;
