@@ -5,7 +5,7 @@ import './header.scss';
 
 const Header = ({ siteTitle, children }) => (
 	<div>
-		<header className="header">
+		<header className="header shadow">
 			<HeaderItem link="/" title="HOME" />
 			<HeaderItem link="/about/" title="ABOUT" />
 			<HeaderItem link="/projects/" title="PROJECTS" />

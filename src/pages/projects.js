@@ -12,7 +12,7 @@ const ProjectsPage = () => (
 			return (
 				<Layout>
 					<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
-					<h1>ABOUT</h1>
+					<h1>PROJECTS</h1>
 					<MarkdownViewer styling="projects" cards={cards} />
 				</Layout>
 			);
