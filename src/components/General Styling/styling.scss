@@ -31,19 +31,26 @@ $highlight: #6633ca;
 }
 
 .icons {
+	@media screen and (max-width: 700px) {
+		flex-flow: column nowrap;
+	}
 	display: flex;
 	flex-flow: row wrap;
-	font-size: 4rem;
-	justify-content: space-around;
+
+	justify-content: space-evenly;
 	p {
-		font-size: 0.75rem;
+		font-size: 1rem;
 	}
 	.icon {
-		margin: 1rem;
+		@media screen and (max-width: 700px) {
+			flex-basis: 0.25em;
+		}
+		font-size: 10rem;
+		margin: 1rem 0em;
 		background: $dark;
 		padding: 1rem;
 		color: white;
-		min-width: 3.5em;
+		flex-basis: 35rem;
 	}
 	.icon:hover {
 		background: $highlight;
