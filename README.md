@@ -1,1 +1,0 @@
-<h1> My Personal blog site. Built with GatsbyJS. </h1>
