@@ -7,6 +7,13 @@ module.exports = {
 		author: `@gatsbyjs`
 	},
 	plugins: [
+		{
+			resolve: 'gatsby-plugin-buildtime-timezone',
+			options: {
+				tz: 'Australia/Sydney',
+				format: 'dddd[,] MMMM Do[,] YYYY[,] h:mm:ss a'
+			}
+		},
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-sass`,
 		{

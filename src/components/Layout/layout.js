@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
 					</main>
 				</Header>
 				<footer>
-					<p> Site built with GatsbyJS. Last build: {data.site.buildTime} </p>
+					<p> Site built with GatsbyJS. Last build: {data.site.buildTimeZone} </p>
 				</footer>
 			</div>
 		)}
@@ -41,7 +41,7 @@ export default Layout;
 const footerQuery = graphql`
 	query {
 		site {
-			buildTime(formatString: "dddd[,] MMMM Do[,] YYYY[,] h:mm a")
+			buildTimeZone
 		}
 	}
 `;
