@@ -9,7 +9,6 @@ const AboutPage = () => (
 		query={infoQuery}
 		render={(data) => {
 			const cards = data.allMarkdownRemark.edges;
-			console.log(cards);
 			return (
 				<Layout>
 					<SEO title="Home" keywords={[ `gatsby`, `application`, `react` ]} />
