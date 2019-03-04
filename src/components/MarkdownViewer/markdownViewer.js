@@ -21,25 +21,27 @@ class AboutCard extends React.Component {
 	render() {
 		return (
 			<div className="aboutCardGrid">
-				<div className="arrows">
-					<div
-						onClick={() => {
-							this.back();
-						}}
-						className="arrow"
-					>
-						<FaChevronCircleLeft />
+				{this.state.cards.length > 1 && (
+					<div className="arrows">
+						<div
+							onClick={() => {
+								this.back();
+							}}
+							className="arrow"
+						>
+							<FaChevronCircleLeft />
+						</div>
+						<p>Click to scroll between cards!</p>
+						<div
+							onClick={() => {
+								this.forward();
+							}}
+							className="arrow"
+						>
+							<FaChevronCircleRight />
+						</div>
 					</div>
-					<p>Click to scroll between cards!</p>
-					<div
-						onClick={() => {
-							this.forward();
-						}}
-						className="arrow"
-					>
-						<FaChevronCircleRight />
-					</div>
-				</div>
+				)}
 				<div className="cards alignLeft">
 					<Markdown className={this.state.styling} source={this.state.selected.rawMarkdownBody} />
 				</div>
