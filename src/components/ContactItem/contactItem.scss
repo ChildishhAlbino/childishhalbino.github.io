@@ -6,6 +6,9 @@ p {
 .icon {
 	@media screen and (max-width: 700px) {
 		flex-basis: 0.25em;
+		p {
+			font-size: 0.8rem;
+		}
 	}
 	font-size: 10rem;
 	margin: 1rem 0em;
